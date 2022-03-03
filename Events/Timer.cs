@@ -15,7 +15,7 @@ namespace Events
         {
             for (int i = 0; i < 10000; i++)
             {
-                Thread.Sleep(10);
+                Thread.Sleep(1000);
                 TimeChangeEvent?.Invoke(i);
             }
         }
